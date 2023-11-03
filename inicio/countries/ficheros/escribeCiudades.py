@@ -18,7 +18,7 @@ def escribeFichero():
     return countries #devuelve las countries
 
 @app.get("/countries/<int:id>")
-
+ 
 def get_country(id):
     countries=escribeFichero() ##se crea variable que usa el lee fichero
 
